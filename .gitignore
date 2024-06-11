@@ -1,0 +1,5 @@
+/users/node_modules
+/users/package-lock.json
+
+/products/__pycache__
+/products/migrations
