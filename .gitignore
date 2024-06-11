@@ -3,3 +3,5 @@
 
 /products/__pycache__
 /products/migrations
+
+chatboat/config.py

@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import google.generativeai as genai
-gemini_api_key = "AIzaSyAF6PjyPRcK3XuB9ypMMfU1FBvIj8VMvdk"
+import config
+gemini_api_key = config.GEMINI_API_KEY
 
 
 app = FastAPI()
